@@ -1,4 +1,5 @@
 FROM phusion/baseimage:0.9.17
+MAINTAINER Gianpaolo Macario <gmacario@gmail.com>
 
 # Enable SSH server
 RUN rm -f /etc/service/sshd/down
